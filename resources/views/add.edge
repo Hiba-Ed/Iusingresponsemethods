@@ -1,0 +1,15 @@
+<form method="POST" action="/product">
+
+  {{csrfField()}}
+  <table>
+    <tr>
+      <td align="left">Product ID:</td>
+      <td align="left"><input type="text" name="product_id" /></td>
+    </tr>
+    <tr>
+      <td align="left">Product Name:</td>
+      <td align="left"><input type="text" name="product_name" /></td>
+    </tr>
+  </table>
+  <button type="submit"> Submit </button>
+</form>
